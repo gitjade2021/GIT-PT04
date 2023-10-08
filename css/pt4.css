@@ -1,0 +1,44 @@
+* {
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    letter-spacing: 0.5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 25px auto;
+    font-size: 16px;
+}
+
+
+table thead tr td{
+    text-align: center;
+    border: 1px solid
+
+}
+
+table tbody tr td {
+    padding-left: 5px;
+    text-align: left;
+}
+
+
+table tfoot tr{
+    border-top: 1px dashed gray;
+}
+
+table tfoot tr td {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: green;
+    padding: 8px
+}
+
+
+table tbody tr td:nth-child(7) {
+    text-align: center;
+}
